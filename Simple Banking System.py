@@ -1,14 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 pip install Flask gradio requests
-
-
-# In[6]:
-
 
 import threading
 from flask import Flask, request, jsonify
@@ -169,7 +159,7 @@ transfer_interface.launch(share=True)
 balance_interface.launch(share=True)
 
 
-# In[ ]:
+
 
 
 import gradio as gr
